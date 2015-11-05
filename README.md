@@ -39,6 +39,7 @@ $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ####4.进入vim，安装插件
 ```VimL
 :BundleInstall
+或直接运行:vim +PluginInstall +qall
 ```
 
 ####5.等待插件安装完毕后重启vim
